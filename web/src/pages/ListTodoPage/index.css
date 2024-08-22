@@ -1,0 +1,51 @@
+.todo {
+    max-width: 42rem;
+    margin: 0 auto;
+}
+
+.list-todo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.actions {
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: inline-flex;
+
+    background-color: rgb(230, 230, 230);
+    border-radius: 0.5rem;
+    border-width: 0;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 2.5rem;
+    width: max-content;
+
+    padding: 0.5rem 1rem;
+
+    color: rgb(0, 0, 0);
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+
+    transition-property:
+        color,
+        background-color,
+        border-color,
+        fill,
+        stroke,
+        -webkit-text-decoration-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(230, 230, 230, 0.9);
+}

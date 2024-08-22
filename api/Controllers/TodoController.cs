@@ -86,11 +86,11 @@ public class TodoController : ControllerBase
 
     private static TodoItemDTO ItemToDto(TodoItem todo) {
         return new TodoItemDTO{
-            id = todo.Id,
-            user = todo.User,
-            content = todo.Content,
-            priority = todo.Priority,
-            completed = todo.Completed,
+            Id = todo.Id,
+            User = todo.User,
+            Content = todo.Content,
+            Order = todo.Order,
+            Completed = todo.Completed,
         };
 
     }
@@ -99,13 +99,13 @@ public class TodoController : ControllerBase
 
 public class TodoItemDTO
 {
-    public int id {get; set;}
+    public int Id {get; set;}
 
-    public string user {get; set;} = "";
+    public string User {get; set;} = "";
 
-    public string content {get; set;} = "";
+    public string Content {get; set;} = "";
 
-    public int priority {get; set;}
+    public int Order {get; set;}
 
-    public bool completed {get; set;}
+    public bool Completed {get; set;}
 }

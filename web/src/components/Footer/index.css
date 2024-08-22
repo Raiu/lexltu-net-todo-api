@@ -1,0 +1,15 @@
+.site-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: rgb(173, 182, 196);
+    font-size: 1rem;
+    line-height: 1.25rem;
+
+    margin-top: 2rem;
+}
+
+.copyright {
+    text-align: center;
+}

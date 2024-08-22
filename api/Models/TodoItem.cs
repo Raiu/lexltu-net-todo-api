@@ -9,7 +9,7 @@ public class TodoItem
     
     public string Content {get; set;} = "";
 
-    public int Priority {get; set;}
+    public int Order {get; set;}
 
     public bool Completed {get; set;}
 

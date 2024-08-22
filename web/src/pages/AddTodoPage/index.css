@@ -1,0 +1,111 @@
+.create-todo {
+    margin-bottom: 2rem;
+
+    background-color: rgb(15, 15, 16);
+
+    border-radius: 0.5rem;
+    border: 1px solid rgb(48, 48, 54);
+
+    box-shadow:
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+
+    color: rgb(231, 231, 228);
+    font-family: "Inter", sans-serif;
+    font-feature-settings: normal;
+    font-style: normal;
+    font-synthesis-weight: none;
+    font-variation-settings: normal;
+    line-height: 24px;
+    tab-size: 4;
+    text-rendering: optimizelegibility;
+
+    padding: 1.5rem;
+}
+
+.create-todo .btn {
+    display: inline-flex;
+
+    background-color: rgb(230, 230, 230);
+    border-radius: 0.5rem;
+    border-width: 0;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 2.5rem;
+    width: max-content;
+
+    padding: 0.5rem 1rem;
+
+    color: rgb(0, 0, 0);
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+
+    transition-property:
+        color,
+        background-color,
+        border-color,
+        fill,
+        stroke,
+        -webkit-text-decoration-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+
+    cursor: pointer;
+}
+
+.create-todo .btn:hover {
+    background-color: rgba(230, 230, 230, 0.9);
+}
+
+.create-todo textarea {
+    resize: vertical;
+}
+
+div.inputfield {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4375em;
+    letter-spacing: 0.00938em;
+
+    box-sizing: border-box;
+    cursor: text;
+
+    display: inline-flex;
+    -moz-box-align: center;
+    align-items: center;
+
+    position: relative;
+
+    border-radius: 4px;
+    border: 1px solid rgb(204, 204, 204);
+
+    background-color: hsla(210, 14%, 9%, 0.8);
+}
+
+div.inputfield input,
+div.inputfield textarea {
+    border: 0px;
+    box-sizing: content-box;
+    background: none;
+    height: 1.4375em;
+    margin: 0px;
+    display: block;
+    min-width: 0px;
+    width: 100%;
+    padding: 16.5px 14px;
+
+    animation-name: mui-auto-fill-cancel;
+    animation-duration: 10ms;
+}
+
+.create-todo h2 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}

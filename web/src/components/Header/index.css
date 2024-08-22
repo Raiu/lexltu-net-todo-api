@@ -1,0 +1,44 @@
+.site-header {
+    margin-bottom: 2rem;
+}
+
+.site-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem 1rem 2rem;
+    align-items: center;
+    max-width: 54rem;
+    margin: 0 auto;
+}
+
+.site-nav a {
+    text-decoration: none;
+}
+
+.site-nav a:hover {
+    text-decoration: none;
+    /* font-weight: 600; */
+    text-shadow: 1px 0 0 currentColor;
+}
+
+.site-nav a.active {
+    text-decoration: none;
+    /* font-weight: 600; */
+    text-shadow: 1px 0 0 currentColor;
+}
+
+.site-header .logo {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.mainmenu {
+    display: flex;
+    gap: 2rem;
+    font-weight: 500;
+}
+
+.mainmenu li {
+    list-style: none;
+}
